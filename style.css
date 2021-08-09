@@ -1,13 +1,5 @@
-@font-face {
-    font-family: 'Merriweather';
-    font-style: normal;
-    src: url(fonts/Merriweather.ttf) format('ttf');
-}
-@font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    src: url(fonts/OpenSans.ttf) format('ttf');
-}
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Open+Sans&display=swap');
+
 :root {
     --color-main:#f3eac0;
     --color-header: #dc9750;

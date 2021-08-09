@@ -50,7 +50,6 @@
 .header .menu-btn:hover {
     color: var(--color-header);
     background-color: var(--color-main);
-    transition: .2s ease-in-out;
 }
 .header .logo {
     display: block;

@@ -1,1 +1,0 @@
-# easy-occitan.github.io

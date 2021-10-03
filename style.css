@@ -155,6 +155,7 @@ p {
 }
 .img-container p {
     text-align: center;
+    overflow-x: auto;
 }
 .img-container img{
     display: block;

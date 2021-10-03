@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&family=Quattrocento:wght@700&display=swap');
 
 :root {
-    --color-main:#fdfbee;
-    --color-header: #ec4330;
-    --color-border: #e9e4cb;
+    --color-main:#fff8c8;
+    --color-header: #dc9750;
+    --color-border: #e9d8a8;
     --color-text: #575148;
-    --header-color-text: #353535;
-    --color-hover: #ff6553;
+    --header-color-text: #503d2a;
+    --color-hover: #fabf85;
     --headline-font: 'Quattrocento', serif;
     --content-font: 'Roboto', sans-serif;
 }
@@ -42,8 +42,8 @@
 }
 .header li a:hover,
 .header .menu-btn:hover {
-
-    background-color: var(--color-hover);
+    color: var(--color-header);
+    background-color: var(--color-main);
     transition: .15s ease-in-out;
 }
 .header .logo {
@@ -145,7 +145,7 @@ p {
     text-align: justify;
 }
 .content {
-    padding: 30px 20px;
+    padding: 30px 40px;
     color: var(--color-text);
     font-size: 14px;
 }
@@ -229,6 +229,7 @@ table {
 }
 
 .footer {
+    color: var(--header-color-text);
     background-color: 	var(--color-header);
     margin: -8px;
     margin-bottom: -13px;

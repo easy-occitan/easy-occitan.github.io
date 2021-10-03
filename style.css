@@ -145,7 +145,7 @@ p {
     text-align: justify;
 }
 .content {
-    padding: 30px 40px;
+    padding: 30px;
     color: var(--color-text);
     font-size: 14px;
 }

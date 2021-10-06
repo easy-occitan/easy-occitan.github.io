@@ -127,11 +127,6 @@
     display: none;
     }
 }
-@media (max-width: 38em) {
-    .img-container img{
-        width: 80%;
-    }
-}
 body {
     background: var(--color-main);
 }

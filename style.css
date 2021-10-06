@@ -127,6 +127,11 @@
     display: none;
     }
 }
+@media (max-width: 38em) {
+    .img-container img{
+        width: 80%;
+    }
+}
 body {
     background: var(--color-main);
 }
@@ -155,7 +160,6 @@ p {
 }
 .img-container p {
     text-align: center;
-    overflow-x: auto;
 }
 .img-container img{
     display: block;

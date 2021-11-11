@@ -159,15 +159,18 @@ p {
     font-weight: bold;
     color: var(--color-text);
 }
-.img-container p {
+.img-source p {
     text-align: center;
     padding: 15px 10px;
 }
-.img-container img{
-    display: block;
+.map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.map img {
     padding: 15px 10px 10px 10px;
-    margin-left: auto;
-    margin-right: auto;  
+    width: 400px;
 }
 .quote p {
     font-size: 16px;
@@ -176,6 +179,7 @@ p {
 }
 .content ul li {
     padding: 5px;
+    margin-left: 20px;
 }
 table {
     padding: 15px 0px;
@@ -244,6 +248,14 @@ table {
     background-color: var(--color-header);
     width: 100%;
     padding: 35px;
+    display: flex;
+    justify-content: center;
 }
+/*mobile*/
+@media only screen and (max-width: 640px) {
+    .map img {
+    width: 70%;
+    }
+  }
 
 /*Recreated with <3 by Izarra*/

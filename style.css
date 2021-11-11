@@ -5,6 +5,7 @@
     --color-header: #dc9750;
     --color-border: #e9d8a8;
     --color-text: #575148;
+    --color-text-hover: #2298d8;
     --header-color-text: #503d2a;
     --color-hover: #fabf85;
     --headline-font: 'Quattrocento', serif;
@@ -12,6 +13,9 @@
 }
 * {
     font-family: var(--content-font);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 .header {
     background-color: 	var(--color-header);
@@ -20,8 +24,7 @@
     width: 100%;
     z-index: 3;
     position: fixed;
-    margin-top: -8px;
-    margin-left: -8px;
+    height: 59px;
 }
 .header a {
     color: var(--color-main);
@@ -42,14 +45,14 @@
 }
 .header li a:hover,
 .header .menu-btn:hover {
-    color: var(--color-header);
+    color: var(--color-text-hover);
     background-color: var(--color-main);
     transition: .15s ease-in-out;
 }
 .header .logo {
     display: block;
     float: left;
-    padding: 13px 20px;
+    padding: 14px 20px 10px;
     text-decoration: none;
     font-family: var(--headline-font);
     font-size: 29px;
@@ -134,18 +137,21 @@ h1 {
     font-size: 22px;
     font-family: var(--headline-font);
     text-align: center;
+    padding: 10px;
 }
 
 h2 {
     font-size: 18px;
     font-family: var(--headline-font);
     text-align: center;
+    padding: 10px;
 }
 p {
     text-align: justify;
+    padding: 4px;
 }
 .content {
-    padding: 30px 20px;
+    padding: 60px 30px;
     color: var(--color-text);
     font-size: 14px;
 }
@@ -155,9 +161,11 @@ p {
 }
 .img-container p {
     text-align: center;
+    padding: 15px 10px;
 }
 .img-container img{
     display: block;
+    padding: 15px 10px 10px 10px;
     margin-left: auto;
     margin-right: auto;  
 }
@@ -166,7 +174,11 @@ p {
     text-align: center;
     font-weight: bold;
 }
+.content ul li {
+    padding: 5px;
+}
 table {
+    padding: 15px 0px;
     width: auto;
     overflow-x: auto;
     display: block;
@@ -227,13 +239,14 @@ table {
     background-color: var(--color-hover);
     transition: .3s ease-in-out;
 }
-
 .footer {
     color: var(--header-color-text);
-    background-color: 	var(--color-header);
-    margin: -8px;
-    margin-bottom: -13px;
+    background-color: var(--color-header);
+    width: 100%;
     padding: 35px;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
 }
 
 /*Recreated with <3 by Izarra*/

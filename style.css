@@ -261,17 +261,9 @@ table {
     display: flex;
     justify-content: center;
 }
-/*mobile
-@media only screen and (max-width: 640px) {
-    .map img {
-    width: 100%;
-    }
+.footer a {
+    color: var(--header-color-text);
+    text-decoration: underline;
 }
-/*
-@media only screen and (max-width: 400px) {
-    .map img {
-    width: 100%;
-    }
-}
-*/
+
 /*Recreated with <3 by Izarra*/

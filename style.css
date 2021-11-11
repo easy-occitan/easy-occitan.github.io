@@ -161,11 +161,17 @@ p {
 }
 .img-source {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+}
+.img-source a {
+    text-decoration: underline;
+    font-weight: normal;
 }
 .img-source p {
-    padding: 15px 10px;
+    font-size: small;
+    text-align: left;
+    padding: 0px 0px 20px;
 }
 .map {
     display: flex;
@@ -258,8 +264,13 @@ table {
 /*mobile*/
 @media only screen and (max-width: 640px) {
     .map img {
-    width: 65%;
+    width: 70%;
     }
-  }
+}
+@media only screen and (max-width: 400px) {
+    .map img {
+    width: 100%;
+    }
+}
 
 /*Recreated with <3 by Izarra*/

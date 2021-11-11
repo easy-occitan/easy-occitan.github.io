@@ -263,12 +263,13 @@ table {
 }
 .footer a {
     color: var(--header-color-text);
-    text-decoration: underline;
+    text-decoration: none;
 }
 /*mobile*/
 @media only screen and (max-width: 640px) {
     .map img {
-    width: 70%;
+    width: 100%;
     }
 }
+
 /*Recreated with <3 by Izarra*/

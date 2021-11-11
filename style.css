@@ -264,13 +264,14 @@ table {
 /*mobile*/
 @media only screen and (max-width: 640px) {
     .map img {
-    width: 70%;
+    width: 100%;
     }
 }
+/*
 @media only screen and (max-width: 400px) {
     .map img {
     width: 100%;
     }
 }
-
+*/
 /*Recreated with <3 by Izarra*/
